@@ -1,0 +1,15 @@
+.b-teacher__header {
+  margin: 10px 30px;
+}
+
+.b-teacher-table__label {
+  margin: 20px 5px;
+}
+
+.b-teacher-table__link {
+ @extend .b-teacher-table__label;
+  display: inline-block;
+}
+.b-teacher-bottom-table__student{
+  margin-left: 5px;
+}
