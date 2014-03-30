@@ -1,0 +1,5 @@
+c:\users\михаил\documents\visual studio 2010\Projects\testsystem\testsystem\bin\testsystem.dll
+c:\users\михаил\documents\visual studio 2010\Projects\testsystem\testsystem\bin\testsystem.pdb
+c:\users\михаил\documents\visual studio 2010\Projects\testsystem\testsystem\obj\Debug\ResolveAssemblyReference.cache
+c:\users\михаил\documents\visual studio 2010\Projects\testsystem\testsystem\obj\Debug\testsystem.dll
+c:\users\михаил\documents\visual studio 2010\Projects\testsystem\testsystem\obj\Debug\testsystem.pdb

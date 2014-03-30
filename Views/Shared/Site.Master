@@ -1,0 +1,25 @@
+﻿    <%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <!--link href="../../Content/Site.css" rel="stylesheet" type="text/css" /-->
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="../../Content/styles.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+    <div class="container">
+    <article>
+        <h3 class="page-header page-title">Система тестирования</h3>
+    </article>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    </div>
+    <footer class="b-footer">
+        <span class="b-footer__text">Самая модная система тестирования студентов в мире. Все права защищены &copy; 2014</span>
+    </footer>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="../../Content/bootstrap.min.js"></script>          
+</body>
+</html>
