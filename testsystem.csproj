@@ -75,7 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Views\Home\Page.aspx" />
+    <Content Include="Views\Home\StartPage.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

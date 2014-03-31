@@ -23,7 +23,7 @@ namespace testsystem.Controllers
         {
             return View();
         }
-        public ActionResult Page()
+        public ActionResult StartPage()
         {
             return View();
         }
