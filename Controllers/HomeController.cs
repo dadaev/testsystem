@@ -25,6 +25,7 @@ namespace testsystem.Controllers
         }
         public ActionResult StartPage()
         {
+            ViewData["HelloText"] = " Вас приветсвует универсальная система тестрования знаний для студентов. Вы можете посмотреть список доступных для Вас курсов и пройти соответсвующие тесты.";
             return View();
         }
     }
