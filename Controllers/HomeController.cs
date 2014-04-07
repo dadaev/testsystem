@@ -11,11 +11,7 @@ namespace testsystem.Controllers
     {
         public ActionResult Index()
         {
-            ViewData["Title"] = "Авторизируйтесь";
-            ViewData["Warring"] = "Произошла ошибка. Проверьте правильность ввода";
-            ViewData["login"] = "логин";
-            ViewData["Password"] = "пароль";
-            ViewData["Remember"] = "Запомнить меня";
+            ViewData["HelloText"] = " Вас приветсвует универсальная система тестрования знаний для студентов. Вы можете посмотреть список доступных для Вас курсов и пройти соответсвующие тесты.";
             return View();
         }
 
@@ -23,9 +19,13 @@ namespace testsystem.Controllers
         {
             return View();
         }
-        public ActionResult StartPage()
+        public ActionResult Marks()
         {
-            ViewData["HelloText"] = " Вас приветсвует универсальная система тестрования знаний для студентов. Вы можете посмотреть список доступных для Вас курсов и пройти соответсвующие тесты.";
+           
+            return View();
+        }
+        public ActionResult Course()
+        {
             return View();
         }
     }

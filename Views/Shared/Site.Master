@@ -10,11 +10,35 @@
 </head>
 <body>
     <div class="container">
-    <article>
-        <h3 class="page-header page-title">Система тестирования</h3>
-    </article>
+        <article>
+            <h3 class="page-header page-title">Система тестирования</h3>
+        </article>
+         <div class="row b-course">
+            <div class="span3">
+                <div class="dropdown clearfix">
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu"
+                        style="display: block; position: static; margin-bottom: 5px; *width: 180px;">
+                        <li><%:Html.ActionLink("Мои оценки", "Marks", "Home", null, new { @tabindex = "-1" })%></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Мои курсы</a></p>
+                            <ul class="dropdown-menu">
+                                <li><%:Html.ActionLink("ООП", "Course", "Home", null, new { @tabindex = "-1" })%></li>
+                                <li><a tabindex="-1" href="#">Статистика</a></li>
+                                <li><a tabindex="-1" href="#">Дискретная математика</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="center">
+                    <a class="btn btn-primary" href="">Выйти</a>
+                </div>
+            </div>
+            <div class="span9">
             <asp:ContentPlaceHolder ID="MainContent" runat="server" />
             <asp:ContentPlaceHolder ID="ContentPlaceStart" runat="server" />
+            </div>
+        </div>
     </div>
     <footer class="b-footer">
         <span class="b-footer__text">Самая модная система тестирования студентов в мире. Все права защищены &copy; 2014</span>
